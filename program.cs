@@ -100,6 +100,11 @@ public class cardHolder
       }
     }
 
+    void balance(cardHolder currentUser)
+    {
+      Console.WriteLine("Current balance: " + currentUser.getBalance());
+    }
+
   }
 
 }
